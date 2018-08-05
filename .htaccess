@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+     # ochrana proti zacyklení
+    RewriteCond %{ENV:REDIRECT_STATUS} 200
+    RewriteRule ^ - [L]
+
+    RewriteRule ^(.*)$ www/$1 [L]
+</IfModule>

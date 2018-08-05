@@ -1,0 +1,19 @@
+
+#crest{
+    display: block;
+    margin-left: auto;
+}
+.nadpis{
+    font-size: 82px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: white;
+}
+
+#nadpis{
+    margin: auto;
+}
+
+body{
+    background-color: #333333;
+}

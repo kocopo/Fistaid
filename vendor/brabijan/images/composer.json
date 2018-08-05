@@ -1,0 +1,38 @@
+{
+	"name": "brabijan/images",
+	"type": "library",
+	"description": "Image storage for Nette Framework",
+	"keywords": [
+		"nette",
+		"images"
+	],
+	"license": [
+		"BSD-3-Clause",
+		"GPL-2.0",
+		"GPL-3.0"
+	],
+	"authors": [
+		{
+			"name": "Jan Brabec"
+		},
+		{
+			"name": "Filip Procházka"
+		}
+	],
+	"support": {
+		"email": "brabijan@gmail.com",
+		"issues": "https://github.com/brabijan/images/issues"
+	},
+	"require": {
+		"latte/latte": "~2.4",
+		"nette/di": "~2.4",
+		"nette/http": "~2.4",
+		"nette/utils": "~2.4",
+		"nette/finder": "~2.4"
+	},
+	"autoload": {
+		"psr-0": {
+			"Brabijan\\": "src/"
+		}
+	}
+}
