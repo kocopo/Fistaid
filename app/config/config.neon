@@ -12,5 +12,7 @@ session:
 
 services:
 	router: App\RouterFactory::createRouter
-extensions:
-    - Brabijan\Images\DI\ImagesExtension
+database:
+	dsn: 'mysql:host=127.0.0.1;dbname=fistaid'
+	user: kocopo
+	password: 'aV=08326'

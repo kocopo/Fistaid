@@ -4,18 +4,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="{$basePath}/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="{$basePath}/css/styles.css" rel="stylesheet">
-	<script src="{$basePath}/js/jquery.js"></script>
+	{*<link href="{$basePath}/css/styles.css" rel="stylesheet">*}
+	<script src="{$basePath}/js/jquery-3.3.1.js"></script>
 	<script src="{$basePath}/js/bootstrap.min.js"></script>
 	<link href="{$basePath}/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="{$basePath}/css/blog-home.css" rel="stylesheet">
 	<title>{ifset title}{include title|stripHtml} | {/ifset}Fist Aid</title>
 </head>
 
 <body>
-	<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
-
+{include '_includes/header.latte'}
+<div class="container-fluid">
+    <div n:foreach="$flashes as $flash" class="alert alert-{$flash->type} alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        {$flash->message}
+    </div>
+</div>
 	{include content}
-
+{include '_includes/footer.latte'}
 	{block scripts}
 	<script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
 	{/block}
