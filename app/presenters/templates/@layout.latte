@@ -10,9 +10,15 @@
 	<link href="{$basePath}/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="{$basePath}/css/blog-home.css" rel="stylesheet">
 	<title>{ifset title}{include title|stripHtml} | {/ifset}Fist Aid</title>
+<style>
+	body{
+		background-color: {php echo $_SESSION['bgcolor'];};
+	}
+</style>
 </head>
 
 <body>
+
 {include '_includes/header.latte'}
 <div class="container-fluid">
     <div n:foreach="$flashes as $flash" class="alert alert-{$flash->type} alert-dismissible fade show">
