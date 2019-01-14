@@ -2,7 +2,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" n:href="Homepage:default">
             <img src="{$basePath}/resources/fistaidcrest.png" width="44" id="crest"/>
             Fist Aid
         </a>
@@ -11,29 +11,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
+                {*<li class="nav-item active">*}
+                    {*<a class="nav-link" href="#">Home*}
+                        {*<span class="sr-only">(current)</span>*}
+                    {*</a>*}
+                {*</li>*}
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    {php $dark=($_SESSION['theme'] === 'bg-dark');}
-                    {form changeTheme}
-                        {if $dark}
-                        {input change class => 'btn btn-light'}
-                        {else}
-                        {input change class => 'btn btn-dark'}
-                        {/if}
-                    {/form}
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Guides
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" n:href="ChampsOfLight:default">Champion of Light</a>
+
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>
