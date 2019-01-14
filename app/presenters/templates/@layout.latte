@@ -26,10 +26,23 @@
         {$flash->message}
     </div>
 </div>
-	{include content}
+
+		<!-- Page Content -->
+		<div class="container">
+			<div class="row">
+				<!-- Blog Entries Column -->
+				<div class="col-md-8">
+					{include content}
+				</div>
+				{include '_includes/sideCards.latte'}
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+
 {include '_includes/footer.latte'}
-	{block scripts}
+{block scripts}
 	<script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
-	{/block}
+{/block}
 </body>
 </html>

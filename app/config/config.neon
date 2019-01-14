@@ -13,6 +13,6 @@ session:
 services:
 	router: App\RouterFactory::createRouter
 database:
-	dsn: 'mysql:host=127.0.0.1;dbname=fistaid'
-	user: kocopo
-	password: 'aV=08326'
+	dsn: 'mysql:host=localhost;dbname=fistaid'
+	user: fistaiduser
+	password: Test123

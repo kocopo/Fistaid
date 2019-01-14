@@ -41,7 +41,6 @@ public function changeThemeSucceeded(UI\Form $form, $values){
             $_SESSION['bgcolor'] = 'white';
         }
 
-    $this->flashMessage("Téma bylo změněno", "info");
     $this->redirect('this');
 }
 

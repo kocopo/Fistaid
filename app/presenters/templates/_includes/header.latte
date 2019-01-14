@@ -26,7 +26,14 @@
                     <a class="nav-link" href="#">Contact</a>
                 </li>
                 <li class="nav-item">
-                    {control changeTheme}
+                    {php $dark=($_SESSION['theme'] === 'bg-dark');}
+                    {form changeTheme}
+                        {if $dark}
+                        {input change class => 'btn btn-light'}
+                        {else}
+                        {input change class => 'btn btn-dark'}
+                        {/if}
+                    {/form}
                 </li>
             </ul>
         </div>
