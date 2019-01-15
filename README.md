@@ -1,4 +1,4 @@
-##Jak přidat guide
+## Jak přidat guide
  1. vytvoř v app/presenters nový přesenter jako {nazevBosse}Presenter
  2. Zkopíruj z jinýho bossPresenteru obsah a přejmenuj jak se jmenuje
  3. v app/presenter/templates vytvoř složku s jmenem bosse
