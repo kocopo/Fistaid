@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f8bcb49-6f1c-424a-9ca1-f8e9934d0d8b" name="Default Changelist" comment="Deleted Shit presenter (oto please), added last templates, more tweaks from sorg on Champs, fixed">
-      <change afterPath="$PROJECT_DIR$/app/presenters/BlockPresenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/presenters/JainaPresenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/presenters/MekPresenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/presenters/templates/Block/default.latte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/presenters/templates/Jaina/default.latte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/presenters/templates/Mek/default.latte" afterDir="false" />
+    <list default="true" id="0f8bcb49-6f1c-424a-9ca1-f8e9934d0d8b" name="Default Changelist" comment="pictures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/ShitPresenter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/templates/@layout.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/@layout.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Block/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Block/default.latte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/presenters/templates/ChampsOfLight/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/ChampsOfLight/default.latte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/presenters/templates/Conclave/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Conclave/default.latte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/presenters/templates/Grong/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Grong/default.latte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/presenters/templates/JadeMasters/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/JadeMasters/default.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Jaina/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Jaina/default.latte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/presenters/templates/King/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/King/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Shit/default.latte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Mek/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Mek/default.latte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/presenters/templates/Treasure/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Treasure/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/templates/_includes/header.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/_includes/header.latte" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +27,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/presenters/templates/ChampsOfLight/default.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="75" column="80" selection-start-line="75" selection-start-column="80" selection-end-line="75" selection-end-column="80" />
+            <state relative-caret-position="425">
+              <caret line="55" column="54" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/Grong/default.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/Conclave/default.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/King/default.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/Treasure/default.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -43,17 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/templates/Mek/default.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/templates/_includes/header.latte">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="64" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+            <state relative-caret-position="544">
+              <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -61,8 +81,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/templates/Block/default.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="544">
+              <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/JadeMasters/default.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="93" selection-start-line="34" selection-start-column="93" selection-end-line="34" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -70,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/templates/Jaina/default.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+            <state relative-caret-position="544">
+              <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -126,19 +155,19 @@
         <option value="$PROJECT_DIR$/app/presenters/KingPresenter.php" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Homepage/default.latte" />
         <option value="$PROJECT_DIR$/app/presenters/templates/@layout.latte" />
-        <option value="$PROJECT_DIR$/app/presenters/templates/Grong/default.latte" />
-        <option value="$PROJECT_DIR$/app/presenters/templates/JadeMasters/default.latte" />
-        <option value="$PROJECT_DIR$/app/presenters/templates/King/default.latte" />
-        <option value="$PROJECT_DIR$/app/presenters/templates/Treasure/default.latte" />
-        <option value="$PROJECT_DIR$/app/presenters/templates/Conclave/default.latte" />
         <option value="$PROJECT_DIR$/app/presenters/ChampsOfLightPresenter.php" />
         <option value="$PROJECT_DIR$/app/presenters/MekPresenter.php" />
         <option value="$PROJECT_DIR$/app/presenters/BlockPresenter.php" />
         <option value="$PROJECT_DIR$/app/presenters/JainaPresenter.php" />
-        <option value="$PROJECT_DIR$/app/presenters/templates/Block/default.latte" />
         <option value="$PROJECT_DIR$/app/presenters/templates/_includes/header.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Grong/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Block/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Conclave/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/JadeMasters/default.latte" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Jaina/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/King/default.latte" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Mek/default.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Treasure/default.latte" />
         <option value="$PROJECT_DIR$/app/presenters/templates/ChampsOfLight/default.latte" />
       </list>
     </option>
@@ -173,8 +202,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-107" />
-    <option name="y" value="485" />
+    <option name="x" value="-731" />
+    <option name="y" value="-12" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
@@ -279,7 +308,23 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="presenters" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Jaina" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fistaid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fistaid" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="presenters" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="King" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fistaid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fistaid" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="presenters" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Mek" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fistaid" type="b2602c69:ProjectViewProjectNode" />
@@ -379,7 +424,7 @@
       <workItem from="1547470599022" duration="5837000" />
       <workItem from="1547570309996" duration="2973000" />
       <workItem from="1547746267539" duration="6114000" />
-      <workItem from="1547762594586" duration="1661000" />
+      <workItem from="1547762594586" duration="6932000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1533651375261</created>
@@ -423,11 +468,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547752530746</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Deleted Shit presenter (oto please), added last templates, more tweaks from sorg on Champs, fixed padding in boss pictures, added links to images and gifs">
+      <created>1547764344264</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547764344264</updated>
+    </task>
+    <task id="LOCAL-00008" summary="pictures">
+      <created>1547764539726</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547764539726</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60592000" />
+    <option name="totallyTimeSpent" value="65863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1066" extended-state="6" />
@@ -463,7 +522,9 @@
     <MESSAGE value="readme pro přidávání guidu" />
     <MESSAGE value="tweak readme" />
     <MESSAGE value="new side widget and champ of light added info" />
-    <option name="LAST_COMMIT_MESSAGE" value="new side widget and champ of light added info" />
+    <MESSAGE value="Deleted Shit presenter (oto please), added last templates, more tweaks from sorg on Champs, fixed padding in boss pictures, added links to images and gifs" />
+    <MESSAGE value="pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="pictures" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/RouterFactory.php" />
@@ -631,34 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Grong/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/JadeMasters/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/King/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Treasure/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/ChampsOfLightPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -687,20 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Conclave/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="8" lean-forward="true" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Block/default.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/templates/_includes/header.latte">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -708,24 +727,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Grong/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Block/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Conclave/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/JadeMasters/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="93" selection-start-line="34" selection-start-column="93" selection-end-line="34" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/templates/Jaina/default.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="544">
+          <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/King/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/templates/Mek/default.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state relative-caret-position="544">
+          <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Treasure/default.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="93" selection-start-line="32" selection-start-column="93" selection-end-line="32" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/templates/ChampsOfLight/default.latte">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="75" column="80" selection-start-line="75" selection-start-column="80" selection-end-line="75" selection-end-column="80" />
+        <state relative-caret-position="425">
+          <caret line="55" column="54" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
         </state>
       </provider>
     </entry>
