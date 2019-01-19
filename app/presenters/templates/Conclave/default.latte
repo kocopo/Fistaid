@@ -1,26 +1,57 @@
 {block content}
     <script src="{$basePath}/js/modal.js"></script>
-    <h1 class="my-4">Battle for Dazar'alor Guide</h1>
+    <h1 class="my-4">Battle of Dazar'alor Guide</h1>
 
     <div class="card bg-dark text-light mb-4">
 
         <img class="card-img-top" src="{$basePath}/resources/CotC.jpg" alt="Conclave of the Chosen">
 
         <div class="card-body">
-            <h2 class="card-title">Grong</h2>
+            <h2 class="card-title">Conclave of the Chosen</h2>
             <h6 class="card-subtitle mb-2 text-muted">All images and gifs of videos are property of <a href="https://www.youtube.com/channel/UCxPdH3tv8zuGDBBKCEwruGQ">Fatboss</a><br>
                 Mechaniky označeny <b style="color: #ff2828">červeně</b> jsou pouze na heroic
             </h6>
             <h3 class="card-title "><u>Mechaniky a ability:</u> </h3>
-            <p class="card-text"></p>
+            <p class="card-text">
+                - 4 Bossové, 2 naráz, pokud jeden umře dalšího ho vymění a boss který zůstal naživu si doplní HP na 100% <br>
+                - Hlavní ability Bossu zůstávají po tom co zemřou <br>
+                - Kill Order : Pa'ku > Gonk > Kimble > Akunda<br>
+                - Průběžně se Objevuje Krag'wa který skočí vždy na hráče nejdál od poslední pozice skoku (viz obr. 1), je třeba dodgenout skok (dává velký dmg a odhazuje)<br>
+                - Je třeba si dobře načasovat smrti Bossu aby se pernamentní ability neoverlapovali<br>
+                <b>Pa'ku</b> <br/>
+                - Gift of Wind buffuje nepřátele, je třeba dispellnout <br>
+                - Pa'ku's wrath - Pa'ku přiletí na random pozici a začne chanellovat (viz obr. 2), pokud hráč nestojí max 10 yardu od ní, dostává dmg. (zůstává po smrti) <br>
+                <b>Gonk</b> <br/>
+                - Pokud máte debuff Crawling hex je třeba se vzdálit od všech alespoň 8 yardů do 5 sekund (viz obr.3), jinak při dispellu přeskočí<br>
+                - Nestát u tanka pokud boss cástí Wild maul <br>
+                - Vyvolá raptory kteří se musí focusnout a CCčkovat(viz obr. 4), jinak mají MS buff a CC immune (zůstává po smrti)<br>
+                <b>Kimble</b> <br/>
+                - Kimbul's wrath - Pokud na sobě máte tento Debuff (viz obr. 5), okamžitě odejít od raidu ať nespreadnete dotku (zůstává po smrti)<br>
+                <b>Akunda</b> <br/>
+                - utéct z Range Thundering storm (10 yardů, viz obr. 6)<br>
+                - Akunda's warth - Debuff který po 6 sec dá dmg a vyšle do 5 směrů koule které se musí dodgenout (viz obr. 7)<br>
+                (po srmti je to vcelku velký cluster fuck)<br>
+            </p>
             <h3 class="card-title "><u>DPS tipy:</u> </h3>
             <p class="card-text">
+                - burst Raptor addy <br>
             </p>
             <h3 class="card-title "><u>Tank tipy:</u> </h3>
+
             <p class="card-text">
+                - Bossové musí být od sebe alespoň 7 yardů (99% dmg reduction)<br>
+                <b>Pa'ku</b> <br/>
+                - Zvyšuje si attack speed pokud utočí do stejného targetu, po chvíli je třeba switchnout nebo nechat jakékoliv melee tauntnout na jeden hit a pak si tank zpátky převezme bosse <br>
+                <b>Gonk</b> <br/>
+                - Mitigačku na Wild maul <br>
+                <b>Kimble</b> <br/>
+                - Lacerating Claws Davá dmg v cone a dotku na 45 sekund která zvyšuje dmg spellu, je třeba switchovat s druhým tankem <br>
             </p>
             <h3 class="card-title "><u>Heal tipy:</u> </h3>
             <p class="card-text">
+                - Po tom co Boss zemře dá na celý raid dotku, je třeba použít CD<br>
+                - Disspelovat Crawling hex pokud jsou hráči od ostatních vzdálený 8 yardů<br>
+                - Disspelnout Mind Wipe u Akundy<br>
             </p>
         </div>
     </div>
@@ -35,6 +66,55 @@
         <h5 class="card-header">Obrázky & Gify</h5>
         <div class="card-body">
             <h6 class="card-subtitle mb-2 text-muted">Obrázky a gify se dají rozkliknout</h6>
+            <p class="card-text">
+                <i>Krag'wa jump</i> <br/>
+                <a href="{$basePath}/resources/cotcgifs/kragwa.gif" data-lightbox="spell" data-title="Krag'wa jump">
+                    <img style="width: 100%;" src="{$basePath}/resources/cotcgifs/kragwa.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Pa'ku's wrath</i> <br/>
+                <a href="{$basePath}/resources/cotcgifs/paku.gif" data-lightbox="spell" data-title="Pa'ku's Wrath">
+                    <img style="width: 100%;" src="{$basePath}/resources/cotcgifs/paku.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Crawling Hex</i> <br/>
+                <a href="{$basePath}/resources/cotcgifs/hex.gif" data-lightbox="spell" data-title="Crawling Hex">
+                    <img style="width: 100%;" src="{$basePath}/resources/cotcgifs/hex.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Focus Raptory</i> <br/>
+                <a href="{$basePath}/resources/cotcgifs/raptor.jpg" data-lightbox="spell" data-title="Focus Raptory">
+                    <img style="width: 100%;" src="{$basePath}/resources/cotcgifs/raptor.jpg" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Hráč zaměřený Kimble's wrath</i> <br/>
+                <a href="{$basePath}/resources/cotcgifs/kimble.jpg" data-lightbox="spell" data-title="Hráč zaměřený Kimble's wrath">
+                    <img style="width: 100%;" src="{$basePath}/resources/cotcgifs/kimble.jpg" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Thundering storm</i> <br/>
+                <a href="{$basePath}/resources/cotcgifs/akunda1.gif" data-lightbox="spell" data-title="Thundering storm">
+                    <img style="width: 100%;" src="{$basePath}/resources/cotcgifs/akunda1.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Hráči ovlivnění Akunda's warth</i> <br/>
+                <a href="{$basePath}/resources/cotcgifs/akunda2.gif" data-lightbox="spell" data-title="Hráči ovlivnění Akunda's warth">
+                    <img style="width: 100%;" src="{$basePath}/resources/cotcgifs/akunda2.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
         </div>
     </div>
 
