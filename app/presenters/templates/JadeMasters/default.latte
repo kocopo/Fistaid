@@ -12,14 +12,80 @@
                 Mechaniky označeny <b style="color: #ff2828">červeně</b> jsou pouze na heroic
             </h6>
             <h3 class="card-title "><u>Mechaniky a ability:</u> </h3>
-            <p class="card-text"></p>
+            <p class="card-text">
+            - Fight s 2 bossmi (Monk a Mage), každý má nezávislý HP pool <br/>
+            - Primárne ide DPS do Monka, pretože má pasívnu abilitu, ktorá mu zvyšuje dmg čím vyššie HP má voči Mage bossovi <br/>            
+            <h4>Monk ability:</h4>
+            <b>Multi-sided Strike (Obr. 1)</b><br/> 
+            - Tank abilita, zdvihne hráča do vzduchu, kde sa okolo neho postupne objavia 3 <b style="color: #ff2828">(4 na heroic)</b> obrazy Monka <br/>
+            - Následne sa po jednom vrhnú na tanka v poradí v akom sa pred tým objavili <br/>
+            - Tank sa musí vždy otočiť k obrazu, ktorý práve skáče k nemu, inak dostane dmg <br/>
+            - Nakoniec je tank portnutý naspäť a dostane debuff Tested (+100% physical dmg taken), takže Monk bossa vtedy berie druhý tank <br/>            
+            <br/>
+            <b>Whirling Jade Storm (Obr. 2)</b><br/>
+            - Monk odskočí od tanka na náhodné miesto a začne dávať low raidwide dmg <br/>
+            - Tank alebo mobilné melee dps musí hitnúť na melee Monka aby prerušili tento channel <br/>
+            <br/>
+            <b style="color: #ff2828">Spirit of Xuen (Obr. 3)</b>
+            - Objaví sa add, ktorý je fixovaný na náhodného non-tank hráča a ak sa k nemu dostane, dá mu veľký dmg burst <br/>
+            - Add zároveň skáče na pozíciu fixovaného hráča a pri dopade dáva 5yd AoE dmg <br/>
+            - Je potrebné snažiť sa čo najviac vyhýbať addovi, dps musia ihneď focusnúť adda a stunovať/slowovať a pod. <br/>
+            <br/>
+            <h4>Mage ability:</h4>
+            <b>Fireball</b><br/> 
+            - Namiesto melee útokov castí na tanka Fireball, ktorý stackuje DoT debuff Rising Flames<br/>
+            - Po vypršaní debuffu nasleduje explózia raidwide dmg, ktorý je úmerný stackom debuffu (Obr. 4), tanci by si mali teda tauntovať bossa cca na 4 stackoch <br/>                        
+            <br/>
+            <b>Pyroblast</b><br/>
+            - Mage sa premiestni na náhodného hráča a získa buff Fire Shield - absorbuje dmg a nemôže byť interruptnutý <br/>
+            - Hneď potom Mage začne castiť na náhodného hráča Pyroblast (Obr. 5), ktorý ak docastí tak pravdepodobne instakillne cieleného hráča <br/>
+            - DPS musia vtedy focusnúť Mage bossa aby zrušili Fire Shield dostatočným množstvom dmg a následne môžu interruptnúť Pyroblast <br/>
+            <br/>
+            <b>Searing Embers (Obr. 6)</b><br/>
+            - Mage aplikuje niekoľko Searing Embers debuffov na hráčov v raide, každý debuff má inú dĺžku (od 4 do 10 sec) <br/>
+            - Debuff dáva počas trvania DoT a keď skončí bez dispelu, spustí výbuch raidwide dmg <br/>
+            - Healeri musia rýchlo reagovať na debuffy a prioritizovať najprv dispelovanie tých s najnižšou dĺžkou (možné dohodnúť sa dopredu, kto dispeluje ktorý duration alebo raid skupinu a pod.) <br/>
+            - Mass dispel tiež funguje ale na pokrytie nestačí 1 Priest <br/>
+            <br/>            
+            <b style="color: #ff2828">Magma Trap (Obr. 7)</b>
+            - Mage často vyvoláva niekoľko ohnivých zón na zemi, ktoré tam ostanú až kým do nich niekto nevbehne <br/>
+            - Po vbehnutí do zóny dostanú všetci hráči v nej veľký burst dmg a sú vyhodení vysoko do vzduchu (ak nestlmia pád, umrú na fall dmg) <br/>
+            - Zároveň hráči, ktorí prežijú dostanú debuff, ktorý o 100% zvyšuje dmg taken z tejto ability <br/>
+            - Je potrebné zbavovať sa týchto zón aby nezavadzali pri manažovaní iných mechaník (napr. Whirling Jade Storm) - Rogue Cloak, Hunter Turtle, Slow Fall, ... <br/>
+            <br/>
+            <h4>Spoločné ability pri dosiahnutí 30/60/100 energy:</h4>
+            <b>30 energy - Fire from Mist (Obr. 8)</b><br/> 
+            - Bossovia vyvolajú 3 Living Bomb addy, ktoré majú okolo seba oblak hmly zamedzujúci targetovanie/line of sight zvonku dnu a naopak <br/>
+            - Addy channelujú pred seba krátky ohnivý lúč, ktorému sa treba vyhýbať a pomaly sa otáčajú na mieste <br/>
+            - Zároveň dookola castia Explosion - raidwide dmg burst <br/>
+            - Raid by sa mal zoskupiť pri jednom addovi a potom spolu presunúť k ďalšiemu práve kvôli line of sight (dispel debuffov, focus Mage cez Pyroblast) <br/>
+            - Pri testovaní na PTR mali addy rôzne HP, v tomto prípade treba prioritizovať najprv adda s najmenšími HP <br/>
+            <br/>
+            <b>60 energy - A Flash of Hostility (Obr. 9)</b><br/> 
+            - Bossovia premiestnia celý raid na jednu stranu miestnosti a seba na druhú stranu <br/>
+            - Úlohou raidu je dostať sa k bossom a zničiť jednu zo 4 bariér aby bolo možné interruptnúť bossov a ukončiť túto abilitu <br/>
+            - Medzi raidom a bossmi sa objaví mnoho kruhov, ktoré dávajú knockback (teleporty, gatewaye etc fungujú) <br/>
+            - Počas prebiehania sa objavujú ohnivé kruhy, ktoré po chvíli vybuchnú a dajú dmg hráčom stojacim v nich <br/>
+            <br/>
+            <b>100 energy - The Serpent and the Phoenix (Obr. 10)</b><br/> <!-- PICTURE -->
+            - Bossovia sa premenia a nahradia niektoré ability inými až do konca fightu <br/>
+            - Monk namiesto Whirling Jade Storm získa abilitu Dragon's Breath - klasický cone breath smerom k náhodnému hráčovi, stačí uhnúť, <b style="color: #ff2828">necháva na zemi oheň</b><br/>            
+            - Mage namiesto Pyroblast získa pasívnu abilitu, ktorá neustále tiká dmg na celý raid každé 3 sec <br/>            
+            - <b style="color: #ff2828"> Multi-sided strike odteraz dostáva niekoľko hráčov naraz (nie len tank)</b> <br/>
+            <br/>
+            </p>
             <h3 class="card-title "><u>DPS tipy:</u> </h3>
+            - Primárne ísť do Monka a počas Pyroblastu rýchlo focusovať Mage bossa a prerušiť cast <br/>
+            - (Melee) pomáhať prerušiť Whirling Jade Storm <br/>
             <p class="card-text">
             </p>
             <h3 class="card-title "><u>Tank tipy:</u> </h3>
+            - Manažovať stacky debuffu z castov Fireballu od Mage bossa <br/>
             <p class="card-text">
             </p>
             <h3 class="card-title "><u>Heal tipy:</u> </h3>
+            - Dispelovať Searing Ember debuffy podľa dohodnutej stratégie s ostatnými healermi <br/>
+            - Počas Fire from Mist byť pripravený použiť healing CD na prvé explózie <br/>
             <p class="card-text">
             </p>
         </div>
@@ -35,6 +101,76 @@
         <h5 class="card-header">Obrázky & Gify</h5>
         <div class="card-body">
             <h6 class="card-subtitle mb-2 text-muted">Obrázky a gify se dají rozkliknout</h6>
+            <p class="card-text">
+                <i>Obr. 1: Multi-sided Strike</i> <br/>
+                <a href="{$basePath}/resources/jfmgifs/multistrike.gif" data-lightbox="spell" data-title="Multi-sided Strike">
+                    <img style="width: 100%;" src="{$basePath}/resources/jfmgifs/multistrike.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Obr. 2: Whirling Jade Storm</i> <br/>
+                <a href="{$basePath}/resources/jfmgifs/jadestorm.gif" data-lightbox="spell" data-title="Whirling Jade Storm">
+                    <img style="width: 100%;" src="{$basePath}/resources/jfmgifs/jadestorm.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Obr. 3: Add - Spirit of Xuen</i> <br/>
+                <a href="{$basePath}/resources/jfmgifs/xuen.gif" data-lightbox="spell" data-title="Spirit of Xuen">
+                    <img style="width: 100%;" src="{$basePath}/resources/jfmgifs/xuen.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Obr. 4: Explózia po vypršaní debuffu z Fireballu</i> <br/>
+                <a href="{$basePath}/resources/jfmgifs/fireball.gif" data-lightbox="spell" data-title="Fireball Explózia">
+                    <img style="width: 100%;" src="{$basePath}/resources/jfmgifs/fireball.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Obr. 5: Mage castí Pyroblast</i> <br/>
+                <a href="{$basePath}/resources/jfmgifs/pyro.jpg" data-lightbox="spell" data-title="Pyroblast">
+                    <img style="width: 100%;" src="{$basePath}/resources/jfmgifs/pyro.jpg" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Obr. 6: Searing Embers debuff</i> <br/>
+                <a href="{$basePath}/resources/jfmgifs/ember.gif" data-lightbox="spell" data-title="Searing Embers">
+                    <img style="width: 100%;" src="{$basePath}/resources/jfmgifs/ember.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Obr. 7: Spustenie Magma Trap</i> <br/>
+                <a href="{$basePath}/resources/jfmgifs/trap.gif" data-lightbox="spell" data-title="Magma Trap">
+                    <img style="width: 100%;" src="{$basePath}/resources/jfmgifs/trap.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Obr. 8: Add - Living Bomb pri 30 energy</i> <br/>
+                <a href="{$basePath}/resources/jfmgifs/bomb.gif" data-lightbox="spell" data-title="Living Bomb">
+                    <img style="width: 100%;" src="{$basePath}/resources/jfmgifs/bomb.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Obr. 9: A Flash of Hostility pri 60 energy</i> <br/>
+                <a href="{$basePath}/resources/jfmgifs/maze.gif" data-lightbox="spell" data-title="A Flash of Hostility">
+                    <img style="width: 100%;" src="{$basePath}/resources/jfmgifs/maze.gif" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
+            <p class="card-text">
+                <i>Obr. 10: Bossovia pri 100 energy</i> <br/>
+                <a href="{$basePath}/resources/jfmgifs/100energy.jpg" data-lightbox="spell" data-title="The Serpent and the Phoenix">
+                    <img style="width: 100%;" src="{$basePath}/resources/jfmgifs/100energy.jpg" alt="Spell img"> <br/>
+                </a>
+            </p>
+            <br/>
         </div>
     </div>
 {/block}
