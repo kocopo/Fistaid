@@ -36,6 +36,11 @@
 		<!-- Page Content -->
 		<div class="container">
 			<div class="row">
+				{ifset title}
+					<div class="col-md-12">
+						{include contentTitle}
+					</div>
+				{/ifset}
 				<!-- Blog Entries Column -->
 				<div class="col-md-9">
 					{include content}
